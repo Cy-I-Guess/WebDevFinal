@@ -1,0 +1,30 @@
+header{
+        height: 100px;
+        background-color: cornflowerblue;
+}nav{
+        height: 60px;
+        background-color: coral;
+}main{
+        height: 600px;
+        width: 70%;
+        float: left;
+        background-color: darkcyan;
+}aside{
+        height: 600px;
+        width: 30%;
+        float: right;
+        background-color: bisque;
+}footer{
+        height: 100px;
+        background-color: darkblue;
+        color: white;
+}.content{
+        height: 600px;
+        background-color: azure;
+        float: none;
+}.button{
+        background-color: darkolivegreen;
+        color: whitesmoke;
+        margin: 20px;
+        float: left;
+}
