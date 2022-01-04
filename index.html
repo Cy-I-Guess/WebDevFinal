@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
         <link type="text/css" rel="stylesheet" href="style.css"/>
     </head>
@@ -20,15 +20,24 @@
             <div class="button"> 
                 <a href="">Page Three</a>
             </div>
+            <div class="button">
+                <a href="#" onclick="myFunction()">Toggle dark mode</a>
+            </div>
         </nav>
         <div class="content">
             <main>
-                <p>This is the main.</p>
+                <p>Hello!</p>
             </main>
             <aside>
-                <p>This is the aside.</p>
+                <p>Welcome! Thanks for coming to the website! This is my final project for Web Development, and this is page one. On this page I'll be listing off different animes, and a short description of their story. Up at the top we have a nav bar to take you to other pages, and to toggle a dark mode. I hope you enjoy!</p>
             </aside>
         </div>
-        <footer>Footer</footer>
+        <footer></footer>
+        <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                    }
+        </script>
     </body>
 </html>
