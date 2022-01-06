@@ -13,26 +13,58 @@
         </header>
         <nav>
             <div class="button"> 
-                <a href="">Page One</a>
+                <a href="FinalProject1.html">Page One</a>
             </div>
             <div class="button"> 
-                <a href="">Page Two</a>
+                <a href="FinalProject2.html">Page Two</a>
             </div>
             <div class="button"> 
-                <a href="">Page Three</a>
+                <a href="FinalProject3.html">Page Three</a>
             </div>
             <div class="button">
-                <button class="nav-item"><a role="button" onclick="darkmode()">Toggle Me</a></button>
             </div>
         </nav>
         <div class="content">
             <main>
-                <p>Hello!</p>
+                <table class="animeTable">
+                      <tr>
+                        <th>Name</th>
+                        <th>Episodes/Runtime</th> 
+                        <th>Release Date</th>
+                        <th>Image</th>
+                    </tr>
+                    <tr>
+                        <td>Demon Slayer: Kimetsu no Yaiba</td>
+                        <td>There is a total of 39 episodes as of now, the show is still running.</td>
+                        <td>Released on April 6, 2019</td>
+                        <td><img src="DemonSlayerImage.jpg" class="animeTableImage"><p class="tableText">This image was taken by kiliweb on openfoodfacts.org, a link to the license can be found <a href="https://creativecommons.org/licenses/by-sa/3.0/" class="licenseLinks">here</a> </p></td>
+                    </tr>
+                    <tr>
+                        <td>Fullmetal Alchemist</td>
+                        <td>There is a total of 51 episodes.</td>
+                        <td>Released on October 4, 2003</td>
+                        <td><img src="fullmetalAlchemist.jpg" class="animeTableImage"></td>
+                    </tr>
+                    <tr>
+                        <td>Death Note</td>
+                        <td>There is a total of 37 episodes.</td>
+                        <td>Released on October 3, 2006</td>
+                        <td><img src="deathNote.jpg" class="animeTableImage"><p class="tableText">This image was taken by Alatorde on wikimedia.org, a link to the license can be found <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" class="licenseLinks">here</a></p></td>
+                    </tr>
+                    <tr>
+                        <td>A Silent Voice</td>
+                        <td>The movie runs for 2 hours and 9 minutes.</td>
+                        <td>Released on October 20, 2017</td>
+                        <td><img src="aSilentVoice.jpg" class="animeTableImage"><p class="tableText">This image was taken by Alicia Cousin on fun-academy.fr, a link to the license can be found <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" class="licenseLinks">here</a></p></td>
+                    </tr>
+                </table>
             </main>
             <aside>
                 <p>Hello! This is page two of my final project for my Web Development class. On this page there is a table of all the previously mentioned animes in page one. This will have the name of the anime, the release date, how many episodes it has, and an image from the anime. Happy reading!</p>
             </aside>
         </div>
         <footer></footer>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
