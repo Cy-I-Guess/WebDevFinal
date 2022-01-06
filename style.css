@@ -1,34 +1,49 @@
 header{
-        height: 100px;
+    height: 100px;
 }nav{
-        height: 60px;
+    height: 60px;
 }main{
-        height: 600px;
-        width: 70%;
-        float: right;
+    height: 600px;
+    width: 70%;
+    float: right;
 }aside{
-        height: 600px;
-        width: 25%;
-        float: left;
+    height: 600px;
+    width: 25%;
+    float: left;
 }footer{
-        height: 100px;
-        color: white;
+    height: 100px;
+    color: white;
 }.content{
-        height: 600px;
-        float: none;
+    height: 600px;
+    float: none;
 }.button a{
-        color: limegreen;
-        margin: 20px;
-        float: left;
-        
+    color: limegreen;
+    margin: 20px;
+    float: left;
 }body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}.dark-mode {
+    background-color: black;
+    color: white;
+}table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
 }
-
-.dark-mode {
-  background-color: black;
-  color: white;
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}.animeTableImage {
+    height: 20%;
+    width: 20%;
+}.tableText {
+    float:right;
+}.licenseLinks {
+    color: limegreen;
+}::selection {
+  background-color: tan;
 }
