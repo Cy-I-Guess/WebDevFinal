@@ -1,10 +1,18 @@
-function darkmode() {
-  const wasDarkmode = localStorage.getItem('darkmode') === 'true';
-  localStorage.setItem('darkmode', !wasDarkmode);
-  const element = document.body;
-  element.classList.toggle('dark-mode', !wasDarkmode);
+/*eslint-env es6*/
+const options = {
+  bottom: '64px', // default: '32px'
+  right: '32px', // default: '32px'
+  left: 'unset', // default: 'unset'
+  time: '1s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
 }
 
-function onload() {
-  document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
-}
+const darkmode = new Darkmode(options);
+
+darkmode.showWidget();
